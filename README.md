@@ -1,6 +1,8 @@
 # MCTS
 Monte Carlo Tree Search on board game
 
+from Jeff Bradberry: http://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/
+
 ### UCB1 in Multi-armed Bandit Problem:
 construct statistical cobnfidence intervals for each machine
 $$ \bar{x}_i \pm \sqrt{\frac{2\ln n}{n_i}}$$
